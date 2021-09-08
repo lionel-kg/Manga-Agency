@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+
+  }
+  .grid2 {
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 35% 65%;
+
+  }
+  .grid3 {
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 60% 40%;
+  }
+  .grid-form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .grid-message{
+      display: grid;
+      grid-template-columns: 100%;
+  }
+  .contact-section{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+  }
+  .container-form{
+      margin: auto;
+      width: 50%;
+  }
+  
+  .content {
+    margin: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+  }
+
+  button{
+      margin-top: 15px;
+      background-color: white;
+      border: solid 1px gray;
+      padding: 10px 20px 10px 20px;
+      border-radius: 30px;
+  }
+  .banner {
+    background: url("../img/banner.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.left {
+    background: url("../img/img-left.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.right {
+    background: url("../img/img-right.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
